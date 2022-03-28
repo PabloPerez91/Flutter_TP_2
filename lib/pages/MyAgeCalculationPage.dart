@@ -67,10 +67,10 @@ class _MyAgeCalculationPageState extends State<MyAgeCalculationPage> {
         padding: const EdgeInsets.all(25.0),
 
         decoration: BoxDecoration(
-          color: Colors.grey,
+          color: Color.fromRGBO(63, 68, 75, 1),
 
         border: Border.all(
-          color: Color.fromRGBO(65, 66, 79, 1),
+          color: Colors.white,
           width: 4.0,
           style: BorderStyle.solid),
           //Border.all
@@ -103,7 +103,7 @@ class _MyAgeCalculationPageState extends State<MyAgeCalculationPage> {
                     color: Colors.blue,
 
                     border: Border.all(
-                        color: Color.fromRGBO(65, 66, 79, 1),
+                        color: Colors.white60,
                         width: 4.0,
                         style: BorderStyle.solid),
                     //Border.all
@@ -155,7 +155,7 @@ class _MyAgeCalculationPageState extends State<MyAgeCalculationPage> {
                   color: Colors.blue,
 
                   border: Border.all(
-                      color: const Color.fromRGBO(65, 66, 79, 1),
+                      color: Colors.white60,
                       width: 4.0,
                       style: BorderStyle.solid),
                   //Border.all
@@ -177,15 +177,6 @@ class _MyAgeCalculationPageState extends State<MyAgeCalculationPage> {
                 ),
               ),
             ),
-            ),
-
-            const Spacer(flex: 2,),
-
-            Center(
-              child: Text(
-                  'Tu as $_ageYears ans',
-                   style: TextStyle(fontSize: 20.0,color: Colors.white,letterSpacing: 2),
-              ),
             ),
 
             const Spacer(flex: 2,),

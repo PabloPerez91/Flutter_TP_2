@@ -74,10 +74,10 @@ class _MyDurationCalculationPageState extends State<MyDurationCalculationPage> {
         padding: const EdgeInsets.all(25.0),
 
         decoration: BoxDecoration(
-            color: Colors.grey,
+            color: Color.fromRGBO(63, 68, 75, 1),
 
         border: Border.all(
-            color: const Color.fromRGBO(65, 66, 79, 1),
+            color: Colors.white,
             width: 4.0,
             style: BorderStyle.solid),
           //Border.all
@@ -109,7 +109,7 @@ class _MyDurationCalculationPageState extends State<MyDurationCalculationPage> {
                     color: Colors.blue,
 
                     border: Border.all(
-                        color: const Color.fromRGBO(65, 66, 79, 1),
+                        color: Colors.white60,
                         width: 4.0,
                         style: BorderStyle.solid),
                     //Border.all
@@ -166,7 +166,7 @@ class _MyDurationCalculationPageState extends State<MyDurationCalculationPage> {
                   decoration: BoxDecoration(
                     color: Colors.blue,
                     border: Border.all(
-                        color: const Color.fromRGBO(65, 66, 79, 1),
+                        color: Colors.white60,
                         width: 4.0,
                         style: BorderStyle.solid),
                     //Border.all
@@ -216,7 +216,7 @@ class _MyDurationCalculationPageState extends State<MyDurationCalculationPage> {
                   color: Colors.blue,
 
                   border: Border.all(
-                      color: const Color.fromRGBO(65, 66, 79, 1),
+                      color: Colors.white60,
                       width: 4.0,
                       style: BorderStyle.solid), //Border.all
 

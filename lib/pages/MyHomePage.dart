@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Calcul de dates'),
-          backgroundColor: Colors.grey, // status bar color
+          backgroundColor: Color.fromRGBO(63, 68, 75, 1), // status bar color
           bottom: const TabBar(
             labelColor: Colors.white,
             tabs: <Widget>[
